@@ -1,0 +1,25 @@
+#include <iostream>
+#include <Date.H>
+
+struct Date {
+	int year;
+	int month;
+	int day;
+};
+
+int main () { 
+	std::cout <<"Ghana" << std::endl;
+	
+	Date d1 {};
+	d1.year = 2019;
+	d1.month = 12;
+	d1.day = 9;
+
+	Date d2 {};
+	d2.year = 1954;
+	d2.month = 2;
+	d2.day = 15;
+
+
+	 max( d1, d2);	
+}
